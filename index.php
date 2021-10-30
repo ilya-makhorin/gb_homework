@@ -1,7 +1,7 @@
 <?php
 session_start();
 $price =['400','200'];
-$link = mysqli_connect("localhost", "root", "Marina024", "geekbrains");
+$link = mysqli_connect("localhost", "root", "1", "geekbrains");
 
 if ($_POST['price1']) {
     $price_item = $price[0];
